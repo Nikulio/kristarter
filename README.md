@@ -4,10 +4,12 @@
 
 ## Usage :
 
-- [x] with yarn (Best practive, ya' know) :
+### With yarn :
 `
 git clone git@github.com:Nikulio/kristarter.git
+
 cd kristarter
+
 yarn
 `
 
@@ -19,10 +21,12 @@ yarn
 
 `yarn build`
 
-- [x] with npm :
+### With npm :
 `
 git clone git@github.com:Nikulio/kristarter.git
+
 cd kristarter
+
 npm i
 `
 
@@ -34,4 +38,4 @@ npm i
 
 `npm run build`
 
-## Guide comming soon ##
+#### Guide comming soon
