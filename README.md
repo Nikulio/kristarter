@@ -38,4 +38,8 @@ npm i
 
 `npm run build`
 
-#### Guide comming soon
+#### Guide comming soon...
+
+![waiting](https://media.giphy.com/media/QUmpqPoJ886Iw/giphy.gif "frog")
+
+~~send nudes~~
