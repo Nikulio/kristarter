@@ -5,13 +5,13 @@
 ## Usage :
 
 ### With yarn :
-`
+```
 git clone git@github.com:Nikulio/kristarter.git
 
 cd kristarter
 
 yarn
-`
+```
 
 **for development:**
 
@@ -22,13 +22,13 @@ yarn
 `yarn build`
 
 ### With npm :
-`
+```
 git clone git@github.com:Nikulio/kristarter.git
 
 cd kristarter
 
 npm i
-`
+```
 
 **for development:**
 
