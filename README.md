@@ -47,5 +47,4 @@ npm i
 ## Guide... Soon? Soon!
 
 ![waiting](https://media.giphy.com/media/QUmpqPoJ886Iw/giphy.gif "frog")
-
 ~~send nudes~~
