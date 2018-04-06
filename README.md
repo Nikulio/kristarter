@@ -38,7 +38,7 @@ npm i
 
 `npm run build`
 
-⋅⋅⋅**Optional:**⋅⋅
+⋅⋅⋅ **Optional:** ⋅⋅
 
 * 1. Install React DevTools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 * 2. Install Redux DevTools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
@@ -47,7 +47,5 @@ npm i
 #### Guide
 
 ![waiting](https://media.giphy.com/media/QUmpqPoJ886Iw/giphy.gif "frog")
-
-
 
 ~~send nudes~~
