@@ -1,8 +1,8 @@
-# Welcome to the KriStarter, React/Redux UI boilerplate
+# Welcome to the KriStarter, React/Redux UI boilerplate!
 
 ![welcome](https://media.giphy.com/media/26vUTlnHulTgAU7le/giphy.gif "Grill")
 
-## Usage :
+## Usage
 
 ### With yarn :
 ```
@@ -36,9 +36,9 @@ npm i
 
 **for production:**
 
-`npm run build`
+`npm run build`3
 
-### Optional :
+### Optional
 
 * Install React DevTools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 * Install Redux DevTools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
