@@ -36,7 +36,7 @@ npm i
 
 **for production:**
 
-`npm run build`3
+`npm run build`
 
 ### Optional
 
