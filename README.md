@@ -48,11 +48,11 @@ npm i
 
 Kristarter is made for easier React/Redux development. For now it is :
 
-⋅⋅* Webpack 4 based!
-⋅⋅* ES 5/6/7 compiler
-⋅⋅* CSS/SCSS loader
-⋅⋅* JSX compiler
-⋅⋅* Arrow functions in React classes and easier store creation :
+* Webpack 4 based!
+* ES 5/6/7 compiler
+* CSS/SCSS loader
+* JSX compiler
+* Arrow functions in React classes and easier store creation :
 
 ```
 store = {
@@ -79,9 +79,9 @@ yourFunction = (optionalArg, optionalArg2) => {
   console.log("no need in this binding in the constructor")
 }
 ```
-⋅⋅* Webpack dev server and HMR included
-⋅⋅* Preinstalled Redux
-⋅⋅* Basic file structure included
+* Webpack dev server and HMR included
+* Preinstalled Redux
+* Basic file structure included
 
 I included best file structure IMHO for React/Redux project. We are splitting all
 components into smart/dumb (visit [this page](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) for more info)
@@ -109,7 +109,7 @@ new CopyWebpackPlugin(
 ),
 ```
 
-⋅⋅* Test React/Redux lifecycle included
+* Test React/Redux lifecycle included
 
 You may check basic React/Redux usage after installing project. In `App/App.js`
 we are calling ours test action (`this.props.initAction(initActionData);`) and
