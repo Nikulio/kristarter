@@ -48,7 +48,7 @@ npm i
 
 Kristarter is made for easier React/Redux development. For now it is :
 
-* Webpack 4 based!
+* Webpack 4 based
 * ES 5/6/7 compiler
 * CSS/SCSS loader
 * JSX compiler
