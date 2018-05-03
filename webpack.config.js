@@ -1,6 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const webpackDashboard = require('webpack-dashboard/plugin');
+const webpackDashboard = require("webpack-dashboard/plugin");
 
 module.exports = {
 	module: {
@@ -46,12 +46,10 @@ module.exports = {
 			template: "./public/index.html",
 			filename: "./index.html"
 		}),
-		new CopyWebpackPlugin(
-			[
-				{ from: "public/favicon.ico", to: "./" },
-				{ from: "public/img/", to: "./img" }
-			]
-		),
-    new webpackDashboard(),
+		new CopyWebpackPlugin([
+			{ from: "public/favicon.ico", to: "./" },
+			{ from: "public/img/", to: "./img" }
+		]),
+		new webpackDashboard()
 	]
 };

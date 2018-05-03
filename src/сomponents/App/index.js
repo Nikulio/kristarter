@@ -1,24 +1,32 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { initAction } from "../../actions/index";
+import DumbComponentExample from "../../containers/example";
 import "./index.scss";
 
 class App extends Component {
 	componentWillMount() {
 		const initActionData = {
-			hello: "world"
+			text: "Hello, world!"
 		};
 		this.props.initAction(initActionData);
 	}
 
 	state = {
-		preview: "img/index.jpg"
+		background: "img/index.png"
 	};
 
 	render() {
-		const { preview } = this.state;
+		const { background } = this.state;
+		const { init } = this.props;
 		return (
-			<div className="preview" style={{backgroundImage: `url(${preview})`}} />
+			<div>
+				<DumbComponentExample
+					cls="preview"
+					backgrondImage={background}
+					welcome={init.text}
+				/>
+			</div>
 		);
 	}
 }
