@@ -38,6 +38,13 @@ npm i
 
 `npm run build`
 
+### Flow usage
+
+* Run `flow` in terminal for start Flow server
+* Put `@flow` in comment at the top of yours .js file which you want to start checking (//@flow for .js files)
+* You are all-set!
+
+
 ### Optional
 
 * Install React DevTools for [Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
