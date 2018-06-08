@@ -1,12 +1,13 @@
 import "regenerator-runtime/runtime";
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./сomponents/App/index";
+import { BrowserRouter } from 'react-router-dom'
 
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
-import reducers from "./reducers";
 
+import reducers from "./reducers";
+import App from "./сomponents/App/index";
 import "reset-css/reset.css";
 
 const reduxDevTools =
@@ -16,7 +17,9 @@ const store = createStore(reducers, reduxDevTools, applyMiddleware());
 
 ReactDOM.render(
 	<Provider store={store}>
-		<App />
+		<BrowserRouter>
+			<App />
+		</BrowserRouter>
 	</Provider>,
 	document.getElementById("root")
 );
