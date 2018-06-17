@@ -18,6 +18,15 @@ yarn
 
 `yarn start`
 
+
+or
+
+`yarn start-dashboard`
+
+
+
+
+
 **for production:**
 
 `yarn build`
@@ -35,6 +44,10 @@ npm i
 **for development:**
 
 `npm run start`
+
+or
+
+`npm run start-dashboard`
 
 **for production:**
 
@@ -60,6 +73,7 @@ Kristarter is made for easier React/Redux development. For now it is :
 * CSS/SCSS loader
 * CSS reset included
 * JSX compiler
+* Boilerplate for redux-form
 * Arrow functions in React classes and easier store creation :
 
 ```
@@ -118,7 +132,7 @@ new CopyWebpackPlugin(
 ),
 ```
 
-* Test React/Redux lifecycle included
+* Default React/Redux lifecycle included
 
 You may check basic React/Redux usage after installing project. In `App/App.js`
 we are calling ours test action (`this.props.initAction(initActionData);`) and
